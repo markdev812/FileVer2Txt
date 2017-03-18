@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssVerToTxt", "AssVerToTxt.csproj", "{FC6E9ED9-C09B-4302-9E05-1B38A4C7C387}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileVer2Txt", "FileVer2Txt.csproj", "{FC6E9ED9-C09B-4302-9E05-1B38A4C7C387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

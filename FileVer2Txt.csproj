@@ -7,8 +7,8 @@
     <ProjectGuid>{FC6E9ED9-C09B-4302-9E05-1B38A4C7C387}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AssVerToTxt</RootNamespace>
-    <AssemblyName>AssVerToTxt</AssemblyName>
+    <RootNamespace>FileVer2Txt</RootNamespace>
+    <AssemblyName>FileVer2Txt</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
