@@ -7,9 +7,10 @@ namespace FileVer2Txt
     {
         static void Main(string[] args)
         {
-            //Usage:  FileVer2Txt [file] [numsegs]
+            //Usage:  FileVer2Txt [file] [numsegs] [custom]
             //        file = exe or dll assembly file to read
             //        numsegs = number of version segments to include
+            //        custom  = additional custom version
             //                  1 = Major
             //                  2 = Major.Minor
             //                  3 = Major.Minor.Build
@@ -34,6 +35,11 @@ namespace FileVer2Txt
                 if (i > 0) strFileVer += ".";
                 strFileVer += segs[i];
             }
+            if (args.Length > 2)
+            {
+                strFileVer += "." + args[2];
+            }
+
             File.WriteAllText("version.txt", strFileVer);
         }
     }
